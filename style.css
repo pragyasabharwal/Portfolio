@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root{
-    --primary-color: #5D5C61;
-    --secondary-color: #557A95;
+    --primary-color: #fce4d8;
+    --secondary-color: #f75590 ;
     --off-white:#b1a296;
-    --link: #6f4e37;
+    --link: #ef233c;
     --white:#f5f5f5
 
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color:#9c8e88;
+    background-color: white;
     /* background-color: var(--off-white); */
     margin: 0;
 }
@@ -25,7 +25,7 @@ nav{
     background-color: var(--secondary-color);
     border-bottom-left-radius: 2rem;
     /* border-bottom-right-radius: 2rem; */
-    max-width: 615px;
+    max-width: 1015px;
     margin: auto; 
 }
 nav ul{
@@ -66,32 +66,34 @@ nav .active{
 header h2{
     text-align: center;
     text-transform: uppercase;
-    background-color: var(--off-white);
+    background-color: var(--primary-color);
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
     padding: 1rem 0.5rem;
     letter-spacing: 0.25rem;
+    color:black;
     
 }
 header h4{
     text-align: center;
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
     padding: 3rem;
 }
 .alt{
+    color: black;
     text-align: left;
-    background-color: var(--off-white);
+    background-color: var(--primary-color);
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
     padding: 1rem 0.5rem;
 }
 section{
     text-align: left;
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
     padding: 1rem 0.5rem;
-    background-color: var(--white);
+    background-color: white;
 
 }
 section h2{
@@ -101,14 +103,14 @@ section a{
     letter-spacing: 0.3rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--link);
+    color: var(--secondary-color);
     font-weight: bolder;
 }
 footer{
     color: white;
     background-color: var(--secondary-color);
     margin: auto;
-    max-width: 600px;
+    max-width: 1000px;
     padding: 0.5rem 0.5rem;
 }
 footer h2{
@@ -133,10 +135,11 @@ small{
 blockquote {
     margin: 1.5em 10px;
     padding: 1.5em 20px;
+    padding-bottom: 0.2rem;
     quotes: "\201C""\201D""\2018""\2019";
     max-width: 600px;
     margin: auto;
-    color: white;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 0.2em ;
     text-align: center;
@@ -144,7 +147,7 @@ blockquote {
 
   }
 blockquote:before {
-    color: #ffff;
+    color: #black;
     content: open-quote;
     font-size: 4em;
     line-height: 0.1em;
