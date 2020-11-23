@@ -41,9 +41,6 @@ nav ul li {
     
     
 }
-section ul li{
-
-}
 nav a{
 text-decoration: none;
 color: white;
@@ -157,6 +154,39 @@ blockquote:before {
   blockquote p {
     display: inline;
   }
-
-
-
+  .blog{
+      letter-spacing: 0;
+      text-transform: lowercase;
+  }
+  .blog-back{
+      background-color: white;
+ 
+    }
+.blog-sec h1{
+        font-size: 2em;
+    }
+.blog-img{
+    /* height:300px;
+    max-width: 600px;
+    margin:auto; */
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    max-height: 18rem;
+    padding: 2rem;
+}
+.blog-image{
+    max-width: 600px;
+    max-height: 15rem;
+    padding: 0rem;
+}
+.foot-blog{
+    text-align: right;
+    padding:1.5rem;
+    font-size: larger;
+}
+.foot-blog-prev{
+    text-align: left;
+    padding:1.5rem;
+    font-size: larger;
+}
