@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root{
+    --primary-color: #5D5C61;
+    --secondary-color: #557A95;
+    --off-white:#b1a296;
+    --link: #6f4e37;
+    --white:#f5f5f5
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#9c8e88;
+    /* background-color: var(--off-white); */
+    margin: 0;
+}
+.brand{
+    color: white;
+    font-weight: bolder;
+    padding: 1rem 1rem;
+    font-size: large;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.7px;
+}
+nav{
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: 2rem;
+    /* border-bottom-right-radius: 2rem; */
+    max-width: 615px;
+    margin: auto; 
+}
+nav ul{
+    text-align: right;
+    padding: 0.5rem;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    
+    
+}
+section ul li{
+
+}
+nav a{
+text-decoration: none;
+color: white;
+
+}
+nav .active{
+    font-weight: bolder;
+    font-size: 1.07rem;
+}
+.main{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    max-height: 15rem;
+    padding: 2rem;
+    
+}
+.social{
+    display: inline;
+    max-width:300px;
+    max-height:100px;
+}
+header h2{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--off-white);
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem 0.5rem;
+    letter-spacing: 0.25rem;
+    
+}
+header h4{
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+    padding: 3rem;
+}
+.alt{
+    text-align: left;
+    background-color: var(--off-white);
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem 0.5rem;
+}
+section{
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem 0.5rem;
+    background-color: var(--white);
+
+}
+section h2{
+    font-weight: bolder;
+}
+section a{
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--link);
+    font-weight: bolder;
+}
+footer{
+    color: white;
+    background-color: var(--secondary-color);
+    margin: auto;
+    max-width: 600px;
+    padding: 0.5rem 0.5rem;
+}
+footer h2{
+    padding: 0.5rem;
+}
+footer ul{
+    padding-bottom: 2rem;
+}
+footer ul li{
+list-style: none;
+padding: 0.5rem;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+small{
+    text-transform: lowercase;
+    -webkit-text-stroke: 0px;
+
+}
+blockquote {
+    margin: 1.5em 10px;
+    padding: 1.5em 20px;
+    quotes: "\201C""\201D""\2018""\2019";
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em ;
+    text-align: center;
+    font-weight: bolder;
+
+  }
+blockquote:before {
+    color: #ffff;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+
+
