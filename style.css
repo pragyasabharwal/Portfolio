@@ -180,6 +180,11 @@ blockquote:before {
     max-height: 15rem;
     padding: 0rem;
 }
+.blog-portfolio{
+    max-width: 600px;
+    max-height: 10rem;
+    padding: 0rem;
+}
 .foot-blog{
     text-align: right;
     padding:1.5rem;
