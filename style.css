@@ -172,7 +172,7 @@ blockquote:before {
     display: block;
     margin: auto;
     max-width: 600px;
-    max-height: 18rem;
+    max-height: 10rem;
     padding: 2rem;
 }
 .blog-image{
