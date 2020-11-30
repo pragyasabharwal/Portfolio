@@ -20,7 +20,7 @@ body{
 .brand{
     color: white;
     font-weight: bolder;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     font-size: x-large;
     text-transform: uppercase;
     -webkit-text-stroke: 0.7px;
@@ -39,7 +39,7 @@ nav ul li {
     display: inline;
     font-size: 1.1rem;
     text-transform: uppercase;
-    margin-right: 1rem;   
+    margin-right: 0.5rem;   
 }
 nav a{
 text-decoration: none;
