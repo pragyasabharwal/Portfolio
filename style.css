@@ -169,7 +169,7 @@ display: inline;
 text-align: center;
 }
 #uw{
-    padding-inline-start: 0px;
+    margin-left: -40px;;
 
 }
 footer a{
