@@ -108,6 +108,9 @@ header h4{
     background-color: #b1a29634 ;
     color: white;
 }
+#tech{
+    margin-top: 12em;
+}
 .alt ul li{
     list-style: none;
     display: inline;
@@ -164,6 +167,10 @@ list-style: none;
 padding: 0.5rem;
 display: inline;
 text-align: center;
+}
+#uw{
+    padding-inline-start: 0px;
+
 }
 footer a{
     text-decoration: none;
