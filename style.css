@@ -154,6 +154,16 @@ section p{
 #redirect:hover{
     text-decoration: underline;
 }
+#e1, #e2{
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: normal;
+}#e1:hover, #e2:hover{
+    text-decoration: underline;
+}
+section{
+    line-height: 1.9em;
+}
 footer{
     color: white;
     margin: auto;
