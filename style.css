@@ -257,4 +257,17 @@ div small{
     padding:1.5rem;
     font-size: larger;
 }
+#bonus
+{
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--off-white);
+}
+#bonus:hover{
+    text-decoration: underline;  
+}
+#here{
+    margin-top: 2.5em;
+}
 
